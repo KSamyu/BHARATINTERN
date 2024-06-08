@@ -1,0 +1,76 @@
+body {
+    background-image: url('pic2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    }
+form {
+    background-color: rgba(207, 122, 190, 0.884);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="radio"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #764776;
+    color: white;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #5a335a;
+}
+
+.gender label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+image{
+    opacity: 0.5;
+}
+
+.rf{
+    background-color: rgba(202, 164, 226, 0.884);
+}
