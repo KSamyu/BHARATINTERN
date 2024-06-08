@@ -1,0 +1,21 @@
+
+.rs{
+    background-color:pink; 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+   margin:250px auto;
+  
+  
+}
+h1{
+    text-align: center;
+    color: #68098e;
+}
+    body {
+        background-image: url('pic2.jpg');
+        background-size: 100%;
+        background-position: center;
+        font-family: 'Times New Roman', Times, serif, sans-serif;
+    }
+
