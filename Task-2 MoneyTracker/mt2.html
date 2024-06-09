@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Tracker App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1 id="m1">MONEY TRACKER APP</h1>
+            <h2 id="l1">ENTER YOUR BUDGET</h2>
+            <input type="text" id="budgInp" placeholder="Enter Budget">
+            <button id="set-budget-btn">ADD BUDGET</button>
+            <h2 id="l2">ADD YOUR EXPENSE</h2>
+            <input type="text" id="ename" placeholder="Expense Name">
+            <input type="number" id="eamt" placeholder="Amount">
+            <input type="date" id="edate">
+            <button id="addExp">ADD EXPENSES</button>
+        </div>
+        <div class="right">
+            <h2 id="l3">BUDGET INFO</h2>
+            <div class="b1"> 
+                <p>TOTAL BUDGET&nbsp;&nbsp;: <span id="totbudg1">0</span></p>
+                <p>TOTAL EXPENSES: <span id="totexp1">0</span></p>
+                <p>BUDGET LEFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <span id="budgleft">0</span></p>
+            </div>
+            <h2 id="l3">EXPENSES</h2>
+            <table id="etable">
+                <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>AMOUNT</th>
+                        <th>DATE</th>
+                        <th>ACTION</th>
+                    </tr>
+                </thead>
+                <tbody id="elist">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
