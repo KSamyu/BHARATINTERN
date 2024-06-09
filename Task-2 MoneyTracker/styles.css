@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('c2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color:white;
+}
+input{
+background-color:rgba(210, 131, 172, 0.537);
+color:white;
+font-family: 'Times New Roman', Times, serif,sans-serif;
+
+}
+#l1,#l2,#l3,#l4{
+    color:rgb(77, 8, 77);
+}
+#m1{
+ 
+    color:rgb(77, 8, 77);
+    background-color:rgba(210, 131, 172, 0.537);
+
+}
+::placeholder{
+    color:rgba(255, 255, 255, 0.596);
+    
+}
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.left, .right {
+    padding: 20px;
+    flex: 1;
+}
+.left {
+ background-image: linear-gradient(150deg, #8476d63e, rgba(210, 131, 172, 0.537),#8476d6e7);
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.right {
+    background-image: linear-gradient(150deg,  #8476d62e, rgba(206, 63, 187, 0.505), #8476d6e7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}   
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a728a7;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+button:hover {
+    background-color: #a728a7;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 5px;
+    margin: 3px 0;
+    background-color: linear-gradient(150deg,  #8476d62e, rgba(206, 63, 187, 0.505), #8476d6e7);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border:1px solid white;
+    
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 5px;
+    border:1px solid white;
+    text-align: center;
+}
+
+th {
+    background-color: linear-gradient(150deg,  #8476d62e, rgba(206, 63, 187, 0.505), #8476d6e7);
+    font-weight: bold;
+}
+
+td button {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #a728a7;
+    color: white;
+    cursor: pointer;
+}
+
+td button:hover {
+    background-color:#a728a7;
+}
+
+
+
+
+
+
